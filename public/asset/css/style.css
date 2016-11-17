@@ -1,0 +1,299 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+body {
+    padding-top: 80px;
+    /* padding-left: 65px; */
+}
+hr{
+	border-top:1px solid #5bb1a9;
+}
+.title_text {
+	font-family:Noto Sans TC,sans-serif;
+	font-size: 28pt;
+}
+.RowText {
+	font-family:Noto Sans TC,sans-serif;
+	font-size: 14pt;
+	color:#0b6ab5;
+}
+.table tr th {
+	font-family:Noto Sans TC,sans-serif;
+	font-size:12pt;
+}
+.table tr td {
+	font-family:Noto Sans TC,sans-serif;
+	font-size:11pt;
+}
+label{
+	white-space:pre-wrap;
+}
+/* dropdown header bar - start */
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-brand:focus,
+.navbar-collapse .nav .dropdown .txtMoney:hover{
+	color:#65f9eb;
+	font-family:Noto Sans TC,sans-serif;
+}
+.navbar-right{
+	margin-right:10px;
+}
+.dropdown .dropdown-menu,.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus{
+	background:#0d544e;
+	color:white;
+}
+.navbar-default .navbar-nav>.open>.dropdown-menu a:hover{
+	background:#2dab9f;
+	color:white;
+}
+.caret{
+	margin-left:8px;
+}
+.glyphicon{
+	top:3px;
+}
+/* dropdown header bar - end */
+/* nav twitch */
+.navbar-twitch {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 0px;
+	height: 100%;
+	border-radius: 0px;
+	border: 0px;
+    z-index: 1030;
+    color:#fff;
+}
+.navbar-twitch.open{
+	width: 200px;
+}
+.navbar-twitch > .container {
+	padding: 0px;
+	width: 100%;
+}
+.navbar-twitch .navbar-header,
+.navbar-twitch .navbar-brand {
+	float: none;
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+.navbar-twitch .navbar-brand {
+    height: 50px;
+}
+.navbar-twitch > .container .navbar-brand {
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-twitch > .container .navbar-brand > .small-nav {
+	display: block;
+}
+.navbar-twitch > .container .navbar-brand > .small-nav > span.logo,
+.navbar-twitch.open > .container .navbar-brand > .full-nav {
+    display: block;
+	font-weight: bold;
+	padding: 15px 2px 15px 3px;
+	font-size: 18pt;
+	font-family:cursive;
+}
+.navbar-twitch.open > .container .navbar-brand {
+	width: 100%;
+	padding: 15px 15px 60px;
+	text-align: center;
+}
+.navbar-twitch.navbar-inverse > .container .navbar-brand > .small-nav > span.logo {
+	/*color: rgb(255, 255, 255);*/
+}
+.navbar-twitch .navbar-nav > li {
+	float: none;
+}
+.navbar-twitch > .container .full-nav {
+	display: none;
+}
+.navbar-twitch.open > .container .full-nav {
+	display: block;
+}
+.navbar-twitch.open > .container .small-nav {
+	display: none;
+}
+.navbar-twitch .navbar-collapse {
+	padding: 0px;
+}
+.navbar-twitch .navbar-nav {
+	float: none;
+	margin: 0px;
+}
+.navbar-twitch .navbar-nav > li > a {
+	padding: 0px;
+}
+.navbar-twitch .navbar-nav > li > a > span {
+	display: block;
+	font-size: 11pt;
+	font-family:'Noto Sans TC',sans-serif;
+	padding: 13px 15px 13px 12px;
+	text-align:center;
+}
+.collaspe  {
+	padding: 13px 15px 13px 12px;
+	text-align:center;
+}
+.navbar-twitch .tooltip,
+.navbar-twitch .tooltip .tooltip-inner {
+	max-width: auto;
+	white-space:nowrap;
+}
+.navbar-twitch-toggle {
+	position: fixed;
+	top: 69px;
+	left:12px;
+	width:45px;
+	height:45px;
+	z-index: 5;
+}
+.navbar-twitch ~ .navbar-twitch-toggle > .nav-open {
+	display: inline-block;
+}
+.navbar-twitch ~ .navbar-twitch-toggle > .nav-close {
+	display: none;
+}
+.navbar-twitch.open ~ .navbar-twitch-toggle {
+	left: 215px;
+}
+.navbar-twitch.open ~ .navbar-twitch-toggle > .nav-open {
+	display: none;
+}
+.navbar-twitch.open ~ .navbar-twitch-toggle > .nav-close {
+	display: inline-block;
+}
+.btn-purple,
+.btn-purple:focus,
+.btn-purple:Active {
+    color: rgb(255, 255, 255);
+    background-color:#0d544e;
+    border-color: #0d544e;
+    box-shadow: 3px 4px 4px rgba(20%,20%,40%,0.6),4px 4px 6px rgba(20%,20%,40%,0.4);
+}
+.btn-purple:hover,
+.btn-purple:focus {
+    background-color: #21a096;
+    border-color: #21a096;
+}
+
+.navbar {
+    background-image: none !important;
+}
+.navbar-purple {
+    background-color: #0d544e;
+    border-style:solid;
+    border-top-width:4px;
+    border-color:#009688;
+}
+.navbar-purple .navbar-brand,
+.navbar-purple .navbar-nav > li > a,
+.navbar-purple .navbar-brand:hover,
+.navbar-purple .navbar-nav > li > a:hover,
+.navbar-purple .navbar-brand:focus,
+.navbar-purple .navbar-nav > li > a:focus {
+    color: #bbe6e3;
+}
+.navbar-purple .navbar-brand:hover,
+.navbar-purple .navbar-nav > li > a:hover,
+.navbar-purple .navbar-brand:focus,
+.navbar-purple .navbar-nav > li > a:focus {
+    background-color:#166962;
+    color: rgb(255, 255, 255);
+}
+.navbar-purple .navbar-nav > .active > a{
+	background-color:#37a79d;
+	color: rgb(255, 255, 255);
+}
+.navbar-default{
+	background-color:#0d544e;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-nav li a{
+	color:white;
+}
+.navbar-twitch .panel-collapse li a{
+	color:#44bd49;
+    font-size: 10pt;
+    text-decoration: none;
+}
+.navbar-twitch .panel-collapse li a:hover,
+.navbar-twitch .panel-collapse li a:active{
+	color:#c9d24d;
+}
+.navbar-twitch .panel-collapse .submenu a{
+	color:#e89213;
+}
+.navbar-twitch .panel-collapse li {
+	list-style-type: none;
+	margin-left:-15px;
+	padding:6px;
+}
+/* nav twitch end */
+/* bootstrapMaterialDatePicker css */
+.btn-flat{
+	margin-left:5px;
+}
+/* other css */
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.form_group , .form-inline{
+	margin-bottom:25px;
+}
+#valine{
+	width: 38px;
+	display: inline-block;
+	text-align:center;
+	font-family:'Noto Sans TC',sans-serif;
+	font-size: 16pt;
+}
+.txtMoney{
+	color:yellow;
+	font-weight:bold;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.proxy_title{
+	font-size:10pt;
+	font-weight: bold;
+	color: white;
+}
+.modal-content .modal-body hr{
+	border-top: 1px solid #e5e5e5;
+}
+.comiss{
+	margin-left:40px;
+	font-size: 14px;
+}
+.list-group-item{
+	border:1px solid #78a0b3;
+}
+.list-group-item.active{
+	border-color:#78a0b3;
+}
+.list-group-item input{
+	height:22px;
+}
+.proxy_list .list-group-item{
+	height:50px;
+}
+.proxy_list{
+	display:inline-flex;
+}
+.list-group-item input[name=com_money]{
+	width:95px;
+}
+#proxyTable tr td{
+	cursor:pointer;
+}
+.space{
+	padding-left:10px;
+}
+.limit{
+	width:45px;
+}
